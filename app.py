@@ -16,6 +16,7 @@ with tab1:
         st.write("La salida de la neurona es", resultado)
 
 with tab2:
+    st.header("Una neurona con dos entradas y dos pesos")
     w_0 = st.slider("Peso w_0", 0.0, 5.0, step=0.5, key="w0_tab2")
     x_0 = st.number_input("Entrada x_0", key="x0_tab2")
     
@@ -26,6 +27,7 @@ with tab2:
     if st.button("Calcular", key="boton_1"):
         st.write("La salida de la neurona es", resultado)
 with tab3:
+    st.header("Una neurona con tres entradas, tres pesos y un bin de 10")
     w_0 = st.slider("Peso w_0", 0.0, 5.0, step=0.5, key="w0_tab3")
     x_0 = st.number_input("Entrada x_0", key="x0_tab3")
     
@@ -35,6 +37,6 @@ with tab3:
     w_2 = st.slider("Peso w_2", 0.0, 5.0, step=0.5, key="w2_tab3")
     x_2 = st.number_input("Entrada x_2", key="x2_tab3")
 
-    resultado = x_0 * w_0 + x_1 * w_1 + x_2 * w_2
+    resultado = x_0 * w_0 + x_1 * w_1 + x_2 * w_2 + 10
     if st.button("Calcular", key="boton_2"):
         st.write("La salida de la neurona es", resultado)
