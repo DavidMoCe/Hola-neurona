@@ -12,7 +12,7 @@ with tab1:
     numero = st.number_input("Introduzca el valor de la entrada")
     resultado = numero * peso
 
-    if st.button("Calcular"):
+    if st.button("Calcular", key="boton_0"):
         st.write("La salida de la neurona es", resultado)
 
 with tab2:
@@ -23,7 +23,7 @@ with tab2:
     x_1 = st.number_input("Entrada x_1")
 
     resultado = x_0 * w_0 + x_1 * w_1
-    if st.button("Calcular"):
+    if st.button("Calcular", key="boton_1"):
         st.write("La salida de la neurona es", resultado)
 with tab3:
     w_0 = st.slider("Peso w_0", 0, 5)
@@ -36,5 +36,5 @@ with tab3:
     x_2 = st.number_input("Entrada x_2")
 
     resultado = x_0 * w_0 + x_1 * w_1 + w_2 * x_2
-    if st.button("Calcular"):
+    if st.button("Calcular", key="boton_2"):
         st.write("La salida de la neurona es", resultado)
