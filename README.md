@@ -4,12 +4,12 @@
 - [English](#english-)
 - [Español](#español-)
 
----
-
 ## Project URL 🌐
 
 You can access the project at the following URL:  
 [**Hello Neuron URL**](https://hola-neurona-dmc.streamlit.app/)
+
+---
 
 ## English 🇬🇧
 
