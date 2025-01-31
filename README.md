@@ -60,7 +60,7 @@ The app contains three tabs, each with a different neuron model:
 - A fixed bias value of 10 is added to the result.
 
 ## License 📄
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [`LICENSE`](https://github.com/DavidMoCe/Hola-neurona/blob/main/LICENSE.txt) file for more details.
 
 ---
 
@@ -113,7 +113,7 @@ La aplicación tiene tres pestañas, cada una con un modelo de neurona diferente
 - Un valor de bias fijo de 10 se añade al resultado.
 
 ## Licencia 📄
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [`LICENSE`](https://github.com/DavidMoCe/Hola-neurona/blob/main/LICENSE.txt) para más detalles.
 
 
 
