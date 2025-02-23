@@ -37,7 +37,7 @@ with tab3:
     w_2 = st.slider("Peso w_2", 0.0, 5.0, step=0.5, key="w2_tab3")
     x_2 = st.number_input("Entrada x_2", key="x2_tab3")
 
-    sesgo = st.number_input("Sesgo/Bias", key="sesgo" value=10)
+    sesgo = st.number_input("Sesgo/Bias", key="sesgo", value=10)
 
     resultado = x_0 * w_0 + x_1 * w_1 + x_2 * w_2 + sesgo
     if st.button("Calcular", key="boton_2"):
