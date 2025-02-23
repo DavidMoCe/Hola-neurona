@@ -39,6 +39,6 @@ with tab3:
 
     sesgo = st.number_input("Sesgo/Bias", key="sesgo" value=10)
 
-    resultado = x_0 * w_0 + x_1 * w_1 + x_2 * w_2 + 10
+    resultado = x_0 * w_0 + x_1 * w_1 + x_2 * w_2 + sesgo
     if st.button("Calcular", key="boton_2"):
         st.write("La salida de la neurona es", resultado)
